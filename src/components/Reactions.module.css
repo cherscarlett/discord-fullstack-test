@@ -1,0 +1,25 @@
+
+.reaction {
+    background-color: var(--primary-dark-500);
+    border: 1px solid transparent;
+    border-radius: 2px;
+    margin: 8px 2px;
+    padding: 4px 8px;
+    cursor: pointer;
+    font-weight: bold;
+    color: var(--primary-dark-300);
+}
+
+.reactionCount {
+    padding-left: 4px;
+}
+
+.reaction:hover {
+    background-color: var(--primary-dark-400);
+}
+
+.userHasReaction {
+    border: 1px solid var(--brand-500);
+    background-color: var(--primary-dark-600);
+    color: var(--brand-200);
+}
